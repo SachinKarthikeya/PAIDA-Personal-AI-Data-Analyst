@@ -1,0 +1,29 @@
+# 🧠 PAIDA - Personal AI Data Analyst
+
+An AI based data analysis assistant which can perform tasks like Data Cleaning, Visualization, Pre-processing, etc. required before building an ML model. 
+Additionally, it can also recommend the efficient ML/DL models by analyzing the dataset. 
+This project enhances the automation of data analysis tasks by performing safe and deterministic execution, avoiding human errors as well as LLM hallucinations.
+
+## 🚀 Features
+
+- Upload a dataset in either of the CSV, JSON or Excel formats
+- Request for a task among EDA, Data Handling, Feature Engineering, Transformation and Scaling, etc. to be performed
+- LLM understands the query given by the user and responds in JSON format
+- The pre-written code in python acts according to the JSON response and executes the task
+- Returns the results in structured format on the dashboard
+- Lets the user download the final modified dataset in CSV format
+- For Model Recommendation: Python tool extracts the dataset's metadata -> LLM analyzes the summary -> Recommends top 3 models with brief explanation in JSON -> Python displays structured format on the dashboard
+
+## 🧰 Tech Stack
+
+- Frontend: Streamlit
+- Backend: Python toolbox, JSON
+- LLM: Llama 3.2:1b (via Ollama)
+
+## 📢 Future Enhancements
+
+- Summarizing total tasks report and exporting in PDF
+- Saving model recommendations to the task report
+- Download raw python code used for tasks in Jupyter Notebook
+- Auto generate train-test splits and model training pipelines after data preparation
+- Downloading the trained models along with the metrics and loss reports
