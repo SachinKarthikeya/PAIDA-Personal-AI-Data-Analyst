@@ -6,11 +6,21 @@ This project enhances the automation of data analysis tasks by performing safe a
 
 ## 🚀 Features
 
-- Upload a dataset in either of the CSV, JSON or Excel formats
+- **Llama3.2:1b**: Analyzes the user task through Natural Language Processing
+- **JSON**: Acts as a bridge between LLM and Python tolbox for performing tasks
+- **Python Toolbox**: Uses libraries like **Pandas**, **Numpy**, **Matplotlib**, **Seaborn** and **Scikit-learn** to perform required tasks
+- **Streamlit**: As a visualistic and interactive dashboard
+- Extracts dataset's metadata for model recommendations
+- Users can download the modified dataset in CSV format
+- Supports data input formats like **CSV**, **JSON** or **Excel**
+
+## 📄 Workflow
+
+- User uploads a dataset in either of the supported formats
 - Request for a task among EDA, Data Handling, Feature Engineering, Transformation and Scaling, etc. to be performed
 - LLM understands the query given by the user and responds in JSON format
 - The pre-written code in python acts according to the JSON response and executes the task
-- Returns the results in structured format on the dashboard
+- Displays the results in structured format 
 - Lets the user download the final modified dataset in CSV format
 - For Model Recommendation: Python tool extracts the dataset's metadata -> LLM analyzes the summary -> Recommends top 3 models with brief explanation in JSON -> Python displays structured format on the dashboard
 
