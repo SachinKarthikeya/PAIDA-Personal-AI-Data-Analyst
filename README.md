@@ -9,6 +9,7 @@ This project enhances the automation of data analysis tasks by performing safe a
 - **Llama3.2:1b**: Analyzes the user task through Natural Language Processing
 - **JSON**: Acts as a bridge between LLM and Python tolbox for performing tasks
 - **Python Toolbox**: Uses libraries like **Pandas**, **Numpy**, **Matplotlib**, **Seaborn** and **Scikit-learn** to perform required tasks
+- **MySQL Database**: To store the modified dataset 
 - **Streamlit**: As a visualistic and interactive dashboard
 - Extracts dataset's metadata for model recommendations
 - Users can download the modified dataset in CSV format
@@ -22,6 +23,7 @@ This project enhances the automation of data analysis tasks by performing safe a
 - The pre-written code in python acts according to the JSON response and executes the task
 - Displays the results in structured format 
 - Lets the user download the final modified dataset in CSV format
+- Allows the user to store the modified dataset in an SQL database in case of disaster recovery or during the use of automated pipelines
 - For Model Recommendation: Python tool extracts the dataset's metadata -> LLM analyzes the summary -> Recommends top 3 models with brief explanation in JSON -> Python displays structured format on the dashboard
 
 ## 🧰 Tech Stack
@@ -29,11 +31,10 @@ This project enhances the automation of data analysis tasks by performing safe a
 - Frontend: Streamlit
 - Backend: Python toolbox, JSON
 - LLM: Llama 3.2:1b (via Ollama)
+- Database: MySQL
 
 ## 📢 Future Enhancements
 
-- Summarizing total tasks report and exporting in PDF
-- Saving model recommendations to the task report
-- Download raw python code used for tasks in Jupyter Notebook
+- Summarizing total tasks report along with model recommendations and exporting in PDF
 - Auto generate train-test splits and model training pipelines after data preparation
 - Downloading the trained models along with the metrics and loss reports
