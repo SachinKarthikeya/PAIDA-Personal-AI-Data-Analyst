@@ -47,6 +47,7 @@ Docker containerization and Render hosting not performed.
 - Backend: Python toolbox, JSON
 - LLM: Llama 3.2:1b (via Ollama) / Llama3.1:8b (production)
 - Database: MySQL
+- Deployment: Docker & Render
 
 ## 📢 Future Enhancements
 
