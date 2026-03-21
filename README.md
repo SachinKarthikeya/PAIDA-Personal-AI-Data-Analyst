@@ -31,15 +31,15 @@ For this project, there are two versions which work separately:
 
 **Version 1:**
 
-No MySQL database integrated
-Changed the LLM from locally running Ollama model to API-based OpenAI model
-Containerized the project using Docker and hosted using Render
+- No MySQL database integrated
+- Changed the LLM from locally running Ollama model to API-based OpenAI model
+- Containerized the project using Docker and hosted using Render
 
 **Version 2:**
 
-MySQL database integrated
-Original local Ollama model integrated
-Docker containerization and Render hosting not performed.
+- MySQL database integrated
+- Original local Ollama model integrated
+- Docker containerization and Render hosting not performed.
 
 ## 🧰 Tech Stack
 
