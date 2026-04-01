@@ -1,4 +1,4 @@
-# 🧠 PAIDA - Personal AI Data Analyst
+# 📊 PAIDA - Personal AI Data Analyst
 
 An AI based data analytics assistant which can perform tasks like Data Cleaning, Visualization, Pre-processing, etc. required before building an ML model. 
 Additionally, it can also recommend the efficient ML/DL models by analyzing the dataset. 
@@ -26,7 +26,7 @@ This project enhances the automation of data analysis tasks by performing safe a
 - Allows the user to store the modified dataset in an SQL database in case of disaster recovery or during the use of automated pipelines
 - For Model Recommendation: Python tool extracts the dataset's metadata -> LLM analyzes the summary -> Recommends top 3 models with brief explanation in JSON -> Python displays structured format on the dashboard
 
-## Versions
+## 📁 Versions
 For this project, there are two versions which work separately:
 
 **Version 1:**
