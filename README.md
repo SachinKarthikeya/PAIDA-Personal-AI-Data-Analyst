@@ -43,7 +43,7 @@ The project mainly consists of three features available for the users:
 
 - User uploads a dataset in either of the supported formats
 - Python tool extracts the dataset's metadata 
-- LLM analyzes the summary
+- LLM analyzes the metadata summary
 - Recommends top 3 models with brief explanation in JSON
 - Structured format is then displayed on the dashboard
 
