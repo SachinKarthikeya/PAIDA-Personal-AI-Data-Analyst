@@ -1,17 +1,17 @@
 # 📊 PAIDA - Personal AI Data Analyst
 
-An AI based data analytics assistant which can:
+An AI based Data Analytics assistant which can:
 
-1. Automate tasks like Data Cleaning, Visualization, Pre-processing, etc. required before building an ML model.
-2. Give useful insights about the dataset by analyzing the dataset.
-3. Recommend efficient ML/DL models based on the dataset's structure.
+- Automate tasks like Data Cleaning, Visualization, Pre-processing, etc. required before building an ML model.
+- Give useful insights about the dataset by analyzing the dataset.
+- Recommend efficient ML/DL models based on the dataset's structure.
 
 This project enhances the automation of data analytics by performing safe and deterministic task execution, efficient business analysis and model recommendations, avoiding human errors as well as LLM hallucinations.
 
 ## 🚀 Features
 
-- **Llama3.2:1b / Llama 3.1:8b**: Analyzes the user task through Natural Language Processing
-- **JSON**: Acts as a bridge between LLM and Python toolbox for structuring output formats
+- **Llama3.2:1b / Llama 3.1:8b**: Analyzes the user task through Natural Language Processing, Generates Business Insights from the dataset, Recommends efficient models for the dataset to train
+- **JSON**: Acts as a bridge between LLM and Python toolbox and metadatas' for structuring output formats
 - **Python Toolbox**: Uses libraries like **Pandas**, **Numpy**, **Matplotlib**, **Seaborn** and **Scikit-learn** to perform required tasks
 - **MySQL Database**: To store the modified dataset 
 - **Streamlit**: As a visualistic and interactive dashboard
@@ -23,7 +23,7 @@ This project enhances the automation of data analytics by performing safe and de
 
 The project mainly consists of three features available for the users:
 
-1. Modify your Dataset
+1. **Modify your Dataset**
 
 - User uploads a dataset in either of the supported formats
 - Request for a task among EDA, Data Handling, Feature Engineering, Transformation and Scaling, etc. to be performed
@@ -33,13 +33,13 @@ The project mainly consists of three features available for the users:
 - Lets the user download the final modified dataset in CSV format
 - Allows the user to store the modified dataset in an SQL database in case of disaster recovery or during the use of automated pipelines
 
-2. Know about your Dataset
+2. **Know about your Dataset**
 
 - User uploads a dataset in either of the supported formats
-- The dataset's details like Columns, Dimensions, Statistical Summary, Missing Value Count and Target Class Distribution are extracted in metadata format.
+- The dataset's details like Columns, Dataset Shape, Dataset Information, Sample Records, Statistical Summary, Missing Values Count and Unique Values Count are extracted in metadata format.
 - The LLM understands the metadata to give useful insights like Key Patterns, Potential Data Quality Issues, Interesting Correlations and Recommendations to improve dataset's quality.
 
-3. Recommend Models for your Dataset
+3. **Recommend Models for your Dataset**
 
 - User uploads a dataset in either of the supported formats
 - Python tool extracts the dataset's metadata 
