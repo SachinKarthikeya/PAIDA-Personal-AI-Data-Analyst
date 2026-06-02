@@ -6,9 +6,10 @@ def extract_metadata(df):
     analyst_metadata = {
         "columns": dataset.columns.tolist(),
         "shape": dataset.shape,
-        "statistical_summary": dataset.describe(include="all").to_dict(),
+        "dtypes": dataset.dtypes.astype(str).to_dict(),
+        "statistical_summary": dataset.describe().to_dict(),
         "missing_values": dataset.isnull().sum().to_dict(),
-        "target_class_distribution": dataset[dataset.columns[-1]].value_counts().to_dict()  
+        "duplicate_values": dataset.duplicated().sum()
     }
 
     return analyst_metadata
