@@ -3,7 +3,7 @@ import json
 from prompts import system_prompt, recommendation_prompt, analyst_prompt
 
 model1_name = "llama3.2:1b"
-model2_name = "mistral:7b"
+model2_name = "gemma3:4b"
 
 SYSTEM_PROMPT = system_prompt()
 RECOMMENDATION_PROMPT = recommendation_prompt()
