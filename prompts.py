@@ -73,9 +73,10 @@ def analyst_prompt():
     - Column names
     - Dataset shape
     - Data types of each column
+    - Sample records
     - Statistical summary 
     - Count of missing values in each column
-    - Count of duplicate values in the dataset
+    - Count of unique values in the dataset
 
     Based on the given details, provide useful business insights like:
     1. Key patterns found in the dataset
