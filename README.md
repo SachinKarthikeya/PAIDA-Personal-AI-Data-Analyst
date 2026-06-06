@@ -10,7 +10,7 @@ This project enhances the automation of data analytics by performing safe and de
 
 ## 🚀 Features
 
-- **Llama3.2:1b / Llama 3.1:8b**: Analyzes the user task through Natural Language Processing, Generates Business Insights from the dataset, Recommends efficient models for the dataset to train
+- **Llama3.2:1b & Gemma3:4b / Llama 3.1:8b**: Analyzes the user task through Natural Language Processing, Generates Business Insights from the dataset, Recommends efficient models for the dataset to train
 - **JSON**: Acts as a bridge between LLM and Python toolbox and metadatas' for structuring output formats
 - **Python Toolbox**: Uses libraries like **Pandas**, **Numpy**, **Matplotlib**, **Seaborn** and **Scikit-learn** to perform required tasks
 - **MySQL Database**: To store the modified dataset 
@@ -66,7 +66,7 @@ For this project, there are two versions which work separately:
 
 - Frontend: Streamlit
 - Backend: Python toolbox, JSON
-- LLM: Llama 3.2:1b (via Ollama) / Llama3.1:8b (production)
+- LLM: Llama 3.2:1b & Gemma3:4b (via Ollama) / Llama3.1:8b (production)
 - Database: MySQL
 - Deployment: Docker & Render
 
